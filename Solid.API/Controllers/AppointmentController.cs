@@ -47,11 +47,11 @@ namespace Solid.API.Controllers
         }
 
         // PUT api/<AppointmentController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Appointment appointment)
-        {
-            _appointmentService.UpdateAppointment(id, appointment);
-        }
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] Appointment appointment)
+        //{
+        //    _appointmentService.UpdateAppointment(id, appointment);
+        //}
 
         // DELETE api/<AppointmentController>/5
         [HttpDelete("{id}")]

@@ -25,22 +25,22 @@ namespace Solid.Data.Repositories
 
         public void DeleteDoctor(int id)
         {
-            _context.DoctorList.Remove(_context.DoctorList.Find(u => u.Id == id));
+            _context.DoctorList.Remove(_context.DoctorList.ToList().Find(u => u.Id == id));
         }
 
         public Doctor GetById(int id)
         {
-            return _context.DoctorList.Find(u => u.Id == id);
+            return _context.DoctorList.ToList().Find(u => u.Id == id);
         }
 
         public List<Doctor> GetDoctor()
         {
-            return _context.DoctorList;
+            return _context.DoctorList.ToList();
         }
 
         public Doctor UpdateDoctor(int id, Doctor doctor)
         {
-            var updateDoctor = _context.DoctorList.Find(u => u.Id == id);
+            var updateDoctor = _context.DoctorList.ToList().Find(u => u.Id == id);
             if (updateDoctor != null)
             {
                 updateDoctor.Address= doctor.Address;

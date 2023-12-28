@@ -1,8 +1,11 @@
-﻿namespace Solid.Core.Entities
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Solid.Core.Entities
 {
     public class Doctor
     {
         private static int count;
+        [Key]
         public int Id { get; }
         public string Name { get; set; }
         public DateTime DateBorn { get; set; }

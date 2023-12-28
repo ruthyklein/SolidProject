@@ -49,14 +49,14 @@ namespace Solid.API.Controllers
         }
         // PUT api/<DoctorController>/5/status
 
-        [HttpPut("{id}/{status}")]
-        public void Put(bool status, int id, [FromBody] Doctor doctor)
-        {
-            _doctorService.UpdateDoctor(id, doctor);
-            //Doctor doc = _context.DoctorList.Find(p => p.Id == id);
-            //if (doc != null)
-            //    doc.Status = doctor.Status;
-        }
+        //[HttpPut("{id}/{status}")]
+        //public void Put(bool status, int id, [FromBody] Doctor doctor)
+        //{
+        //    _doctorService.UpdateDoctor(id, doctor);
+        //    //Doctor doc = _context.DoctorList.Find(p => p.Id == id);
+        //    //if (doc != null)
+        //    //    doc.Status = doctor.Status;
+        //}
         //// DELETE api/<DoctorController>/5
         //[HttpDelete("{id}")]
         //public void Delete(int id)

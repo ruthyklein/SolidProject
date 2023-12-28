@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.API", "Solid.API\Solid.API.csproj", "{56031559-2A91-443E-8EFE-40F80DE0F9B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.API", "Solid.API\Solid.API.csproj", "{56031559-2A91-443E-8EFE-40F80DE0F9B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.Core", "Solid.Core\Solid.Core.csproj", "{96BD4B96-0ADF-4B77-894C-C5107713CCCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.Core", "Solid.Core\Solid.Core.csproj", "{96BD4B96-0ADF-4B77-894C-C5107713CCCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.Data", "Solid.Data\Solid.Data.csproj", "{0184AB13-FCE6-41CC-ABE3-BD39DDB6F441}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.Data", "Solid.Data\Solid.Data.csproj", "{0184AB13-FCE6-41CC-ABE3-BD39DDB6F441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.Services", "Solid.Services\Solid.Services.csproj", "{C0516B97-6643-43D0-9DD3-F3EA497DD48D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.Service", "Solid.Services\Solid.Service.csproj", "{C0516B97-6643-43D0-9DD3-F3EA497DD48D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

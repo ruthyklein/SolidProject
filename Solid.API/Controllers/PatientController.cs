@@ -50,12 +50,12 @@ namespace Solid.API.Controllers
 
         }
 
-        // PUT api/<PatientController>/5
-        [HttpPut("{id}/{status}")]
-        public void Put(bool status,int id, [FromBody] Patient patient)
-        {
-            _patientService.UpdatePatient(id, patient);
-        }
+        //// PUT api/<PatientController>/5
+        //[HttpPut("{id}/{status}")]
+        //public void Put(bool status,int id, [FromBody] Patient patient)
+        //{
+        //    _patientService.UpdatePatient(id, patient);
+        //}
 
         // DELETE api/<PatientController>/5
         //[HttpDelete("{id}")]
