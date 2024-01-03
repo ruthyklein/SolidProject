@@ -9,9 +9,9 @@ namespace Solid.Core.Services
 
         Appointment GetById(int id);
 
-        void AddAppointment(Appointment appointment);
+        Appointment AddAppointment(Appointment appointment);
 
-        void UpdateAppointment(int id, Appointment appointment);
+        Appointment UpdateAppointment(int id, Appointment appointment);
 
         void DeleteAppointment(int id);
     }

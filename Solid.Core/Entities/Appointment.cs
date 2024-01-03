@@ -4,26 +4,21 @@ namespace Solid.Core.Entities
 {
     public class Appointment
     {
-        private static int count;
-        [Key]
         public int Id { get; }
         public DateTime DateTime { get; set; }
-        public Doctor Doctor { get; set; }
-        public Patient Patient { get; set; }
+        //public Doctor Doctor { get; set; }
+        //public Patient Patient { get; set; }
 
 
-        public Appointment(DateTime dateTime, Doctor doctor, Patient patient)
+
+        public Appointment(int id,DateTime dateTime)
         {
-            Id = ++count;
+            Id = id;
             DateTime = dateTime;
-            Doctor = doctor;
-            Patient = patient;
+            //Doctor = doctor;
+            //Patient = patient;
         }
 
-        public Appointment()
-        {
-            Id = ++count;
-        }
 
     }
 }

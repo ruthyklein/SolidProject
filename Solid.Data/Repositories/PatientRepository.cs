@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace Solid.Data.Repositories
 {
@@ -21,17 +22,19 @@ namespace Solid.Data.Repositories
         public Patient AddPatient(Patient patient)
         {
             _context.PatientList.Add(patient);
+            _context.SaveChanges();
             return patient;
         }
 
         public void DeletePatient(int id)
         {
-            _context.PatientList.Remove(_context.PatientList.ToList().Find(u => u.IdNumber == id));
+            _context.PatientList.Remove(_context.PatientList.Find(id));
+            _context.SaveChanges();
         }
 
         public Patient GetById(int id)
         {
-            return _context.PatientList.ToList().Find(u => u.IdNumber == id);
+            return _context.PatientList.Find(id);
         }
 
         public List<Patient> GetPatient()
@@ -41,14 +44,11 @@ namespace Solid.Data.Repositories
 
         public Patient UpdatePatient(int id, Patient patient)
         {
-            var updatePatient = _context.PatientList.ToList().Find(u => u.IdNumber == id);
-            if (updatePatient != null)
-            {
-                updatePatient.Status = patient.Status;
-
-                return updatePatient;
-            }
-            return null;
+            var updatePatient = _context.PatientList.Find(id);
+            updatePatient=patient;
+            _context.SaveChanges();
+            return updatePatient;
+          
         }
     }
 }

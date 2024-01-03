@@ -2,6 +2,7 @@
 using Solid.Core.Entities;
 using Solid.Core.Services;
 using Solid.Data;
+using Solid.Service.Services;
 using System.Net;
 using System.Xml.Linq;
 
@@ -30,37 +31,37 @@ namespace Solid.API.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            return Ok(_doctorService.GetById(id));
+            var doc = _doctorService.GetById(id);
+            if (doc is null)
+            {
+                return NotFound();
+            }
+            return Ok(doc);
         }
 
         // POST api/<DoctorController>
         [HttpPost]
-        public void Post([FromBody] Doctor doctor)
+        public ActionResult Post([FromBody] Doctor doctor)
         {
-            _doctorService.AddDoctor(doctor);
+           return Ok( _doctorService.AddDoctor(doctor));
         }
+
 
         // PUT api/<DoctorController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Doctor doctor)
+        public ActionResult Put(int id, [FromBody] Doctor doctor)
         {
-            _doctorService.UpdateDoctor(id, doctor);
+           return Ok(_doctorService.UpdateDoctor(id, doctor));
             
         }
-        // PUT api/<DoctorController>/5/status
 
-        //[HttpPut("{id}/{status}")]
-        //public void Put(bool status, int id, [FromBody] Doctor doctor)
-        //{
-        //    _doctorService.UpdateDoctor(id, doctor);
-        //    //Doctor doc = _context.DoctorList.Find(p => p.Id == id);
-        //    //if (doc != null)
-        //    //    doc.Status = doctor.Status;
-        //}
+
         //// DELETE api/<DoctorController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            _doctorService.DeleteDoctor(id);
+            return NoContent();
+        }
     }
 }

@@ -8,9 +8,9 @@ namespace Solid.Core.Services
 
         Patient GetById(int id);
 
-        void AddPatient(Patient patient);
+        Patient AddPatient(Patient patient);
 
-        void UpdatePatient(int id, Patient patient);
+        Patient UpdatePatient(int id, Patient patient);
 
         void DeletePatient(int id);
     }

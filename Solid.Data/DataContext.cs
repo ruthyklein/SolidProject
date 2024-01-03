@@ -18,16 +18,13 @@ namespace Solid.Data
         {
             optionsBuilder.UseSqlServer("Server=(localdb)\\MSSQLLocalDB;Database=Maccabi4u_db");
         }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity<Appointment>().HasNoKey();
-            /*HasKey(a => a.Id);*/
-            modelBuilder.Entity<Doctor>().HasKey(a => a.Id);
-            modelBuilder.Entity<Patient>().HasKey(a => a.IdNumber);
-
-        }
-
-
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
+        //    modelBuilder.Entity<Appointment>().HasNoKey();
+        //    /*HasKey(a => a.Id);*/
+        //    modelBuilder.Entity<Doctor>().HasKey(a => a.Id);
+        //    modelBuilder.Entity<Patient>().HasKey(a => a.IdNumber);
+        //}
         //    public List<Appointment> AppointmentList { get; set; }
         //    public List<Doctor> DoctorList { get; set; }
         //    public List<Patient> PatientList { get; set; }
@@ -44,9 +41,7 @@ namespace Solid.Data
         //         new Doctor { Name = "John Doe",Address="Jerusalem 1",DateBorn=new DateTime(),PhoneNumber="123456",Status=true},
         //         new Doctor { Name = "Rafi Levin",Address="Verner 18",DateBorn=new DateTime(),PhoneNumber="123456",Status=true},
         //         new Doctor { Name = "Itzik Rendel",Address="Belze 8",DateBorn=new DateTime(),PhoneNumber="123456",Status=true}
-
         //    };
-
         //    PatientList = new List<Patient>
         //    {
         //         new Patient { Name = "David",Address="Jerusalem 1",DateBorn=new DateTime(),PhoneNumber="123456",Status=true},
@@ -56,15 +51,14 @@ namespace Solid.Data
         //    //AppointmentList = new List<Appointment>();
         //    //DoctorList = new List<Doctor>();
         //    //PatientList = new List<Patient>();
-
         //    //using (var reader = new StreamReader("data.csv"))
         //    //using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
         //    //{
         //    //    AppointmentList = csv.GetRecords<Appointment>().ToList();
         //    //    DoctorList = csv.GetRecords<Doctor>().ToList();
         //    //    PatientList = csv.GetRecords<Patient>().ToList();
-        //    //}
-
+        //    //
         //}
     }
 }
+

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Solid.Core.Entities;
 using Solid.Core.Services;
+using Solid.Service.Services;
 
 namespace Solid.API.Controllers
 {
@@ -22,42 +23,41 @@ namespace Solid.API.Controllers
         {
             return Ok(_appointmentService.GetAppointment());
         }
+
+        
         // GET api/<AppointmentController>/5
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            //var appointment = _appointmentService.GetById(id);
-            //if (appointment is null)
-            //{
-            //    return NotFound();
-            //}
-            //return Ok(appointment);
-            return Ok(_appointmentService.GetById(id));
+            var app = _appointmentService.GetById(id);
+            if (app is null)
+            {
+                return NotFound();
+            }
+            return Ok(app);
         }
-
-        // POS
-        // POST api/<AppointmentController>
+        
+         // POST api/<AppointmentController>
         [HttpPost]
-        public void Post([FromBody] Appointment appointment)
+        public ActionResult Post([FromBody] Appointment appointment)
         {
-            _appointmentService.AddAppointment(appointment);
+            return Ok(_appointmentService.AddAppointment(appointment));
 
             // appointments.Add(new Appointment { Id = appointment.Id, DateTime = appointment.DateTime, Doctor = appointment.Doctor, Patient = appointment.Patient});
 
         }
-
-        // PUT api/<AppointmentController>/5
-        //[HttpPut("{id}")]
-        //public void Put(int id, [FromBody] Appointment appointment)
-        //{
-        //    _appointmentService.UpdateAppointment(id, appointment);
-        //}
+        [HttpPut("{id}")]
+        public ActionResult Put(int id, [FromBody] Appointment app)
+        {
+            return Ok(_appointmentService.UpdateAppointment(id, app));
+        }
 
         // DELETE api/<AppointmentController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public ActionResult Delete(int id)
         {
             _appointmentService.DeleteAppointment(id);
+            return NoContent();
         }
     }
 }

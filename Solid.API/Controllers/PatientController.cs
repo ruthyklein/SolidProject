@@ -21,6 +21,7 @@ namespace Solid.API.Controllers
         {
             _patientService = PatientService;
         }
+
         // GET: api/<PatientController>
         [HttpGet]
         public IActionResult Get()
@@ -32,35 +33,37 @@ namespace Solid.API.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            return Ok(_patientService.GetById(id));
+            var pat = _patientService.GetById(id);
+            if (pat is null)
+            {
+                return NotFound();
+            }
+            return Ok(pat);
+ 
         }
 
         // POST api/<PatientController>
         [HttpPost]
-        public void Post([FromBody] Patient patient)
+        public ActionResult Post([FromBody] Patient patient)
         {
-           _patientService.AddPatient(patient);
+            return Ok(_patientService.AddPatient(patient));
         }
+
 
         // PUT api/<PatientController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] Patient patient)
+        public ActionResult Put(int id, [FromBody] Patient patient)
         {
-          _patientService.UpdatePatient(id, patient);
+            return Ok(_patientService.UpdatePatient(id, patient));
 
         }
 
-        //// PUT api/<PatientController>/5
-        //[HttpPut("{id}/{status}")]
-        //public void Put(bool status,int id, [FromBody] Patient patient)
-        //{
-        //    _patientService.UpdatePatient(id, patient);
-        //}
-
-        // DELETE api/<PatientController>/5
-        //[HttpDelete("{id}")]
-        //public void Delete(int id)
-        //{
-        //}
+        // DELETE api/<AppointmentController>/5
+        [HttpDelete("{id}")]
+        public ActionResult Delete(int id)
+        {
+            _patientService.DeletePatient(id);
+            return NoContent();
+        }
     }
 }

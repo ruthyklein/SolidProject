@@ -19,9 +19,9 @@ namespace Solid.Service.Services
               _appointmentRepository = appointmentRepository;
             }
 
-        public void AddAppointment(Appointment appointment)
+        public Appointment AddAppointment(Appointment appointment)
         {
-            _appointmentRepository.AddAppointment(appointment);
+            return _appointmentRepository.AddAppointment(appointment);
         }
 
         public void DeleteAppointment(int id)
@@ -39,9 +39,9 @@ namespace Solid.Service.Services
             return _appointmentRepository.GetById(id);
         }
 
-        public void UpdateAppointment(int id, Appointment appointment)
+        public Appointment UpdateAppointment(int id, Appointment appointment)
         {
-            _appointmentRepository.UpdateAppointment(id, appointment);
+            return _appointmentRepository.UpdateAppointment(id, appointment);
         }
 
     }

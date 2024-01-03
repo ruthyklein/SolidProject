@@ -19,9 +19,9 @@ namespace Solid.Service.Services
         }
 
 
-        public void AddPatient(Patient patient)
+        public Patient AddPatient(Patient patient)
         {
-            _patientRepository.AddPatient(patient);
+            return _patientRepository.AddPatient(patient);
         }
 
         public void DeletePatient(int id)
@@ -39,9 +39,9 @@ namespace Solid.Service.Services
             return _patientRepository.GetById(id);
         }
 
-        public void UpdatePatient(int id, Patient patient)
+        public Patient UpdatePatient(int id, Patient patient)
         {
-            _patientRepository.UpdatePatient(id, patient);
+           return _patientRepository.UpdatePatient(id, patient);
         }
     }
 }
