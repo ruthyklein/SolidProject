@@ -1,0 +1,226 @@
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\appsettings.Development.json
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\appsettings.json
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.exe
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.deps.json
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.runtimeconfig.json
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.pdb
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Core.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Data.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Data.pdb
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Core.pdb
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.AssemblyReference.cache
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.AssemblyInfoInputs.cache
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.AssemblyInfo.cs
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.CoreCompileInputs.cache
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.MvcApplicationPartsAssemblyInfo.cs
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.MvcApplicationPartsAssemblyInfo.cache
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.Solid.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Solid.API.props
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Solid.API.props
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Solid.API.props
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\scopedcss\bundle\Solid.API.styles.css
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.CopyComplete
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.dll
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\refint\Solid.API.dll
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.pdb
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.genruntimeconfig.cache
+D:\.net core\Solid\Solid.API\obj\Debug\net6.0\ref\Solid.API.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\CsvHelper.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Service.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Service.pdb
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Humanizer.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\appsettings.Development.json
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\appsettings.json
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.exe
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\CsvHelper.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Humanizer.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Core.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Data.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Service.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Data.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Service.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.Core.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.AssemblyReference.cache
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.GeneratedMSBuildEditorConfig.editorconfig
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.AssemblyInfoInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.AssemblyInfo.cs
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.CoreCompileInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.MvcApplicationPartsAssemblyInfo.cs
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.MvcApplicationPartsAssemblyInfo.cache
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.Solid.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Solid.API.props
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Solid.API.props
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Solid.API.props
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.build.json
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.development.json
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\scopedcss\bundle\Solid.API.styles.css
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.CopyComplete
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\refint\Solid.API.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.deps.json
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.runtimeconfig.json
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.dll
+D:\מקצועות 2024\.net core\Solid\Solid.API\bin\Debug\net6.0\Solid.API.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\Solid.API.genruntimeconfig.cache
+D:\מקצועות 2024\.net core\Solid\Solid.API\obj\Debug\net6.0\ref\Solid.API.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\appsettings.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.API.exe
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.API.deps.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.API.runtimeconfig.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.API.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.API.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\CsvHelper.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.Data.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.Service.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.Data.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.Service.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.AssemblyInfo.cs
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.sourcelink.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.Solid.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.build.Solid.API.props
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Solid.API.props
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Solid.API.props
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\scopedcss\bundle\Solid.API.styles.css
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.csproj.CopyComplete
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\refint\Solid.API.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\Solid.API.genruntimeconfig.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.API\obj\Debug\net6.0\ref\Solid.API.dll

@@ -18,30 +18,29 @@ namespace Solid.Service.Services
             _patientRepository = patientRepository;
         }
 
-
-        public Patient AddPatient(Patient patient)
+        public async Task<Patient> AddPatientAsync(Patient patient)
         {
-            return _patientRepository.AddPatient(patient);
+            return await _patientRepository.AddPatientAsync(patient);
         }
 
-        public void DeletePatient(int id)
+        public async Task DeletePatientAsync(int id)
         {
-            _patientRepository.DeletePatient(id);
+            await _patientRepository.DeletePatientAsync(id);
         }
 
-        public List<Patient> GetPatient()
+        public async Task<IEnumerable<Patient>> GetPatientAsync()
         {
-            return _patientRepository.GetPatient();
+            return await _patientRepository.GetPatientAsync();
         }
 
-        public Patient GetById(int id)
+        public async Task<Patient> GetByIdAsync(int id)
         {
-            return _patientRepository.GetById(id);
+            return await _patientRepository.GetByIdAsync(id);
         }
 
-        public Patient UpdatePatient(int id, Patient patient)
+        public async Task<Patient> UpdatePatientAsync(int id, Patient patient)
         {
-           return _patientRepository.UpdatePatient(id, patient);
+           return await _patientRepository.UpdatePatientAsync(id, patient);
         }
     }
 }

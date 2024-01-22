@@ -9,14 +9,14 @@ namespace Solid.Core.Repositories
 {
     public interface IDoctorRepository
     {
-        List<Doctor> GetDoctor();
+        Task<IEnumerable<Doctor>> GetDoctorAsync();
 
-        Doctor GetById(int id);
+        Task<Doctor> GetByIdAsync(int id);
 
-        Doctor AddDoctor(Doctor doctor);
+        Task<Doctor> AddDoctorAsync(Doctor doctor);
 
-        Doctor UpdateDoctor(int id, Doctor doctor);
+        Task<Doctor> UpdateDoctorAsync(int id, Doctor doctor);
 
-        void DeleteDoctor(int id);
+        Task DeleteDoctorAsync(int id);
     }
 }

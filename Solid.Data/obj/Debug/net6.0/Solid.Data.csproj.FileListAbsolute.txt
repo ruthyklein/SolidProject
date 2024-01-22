@@ -1,0 +1,52 @@
+D:\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+D:\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+D:\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+D:\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+D:\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
+D:\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+D:\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+D:\מקצועות 2024\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+D:\מקצועות 2024\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.sourcelink.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CopyComplete
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll

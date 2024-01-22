@@ -1,4 +1,5 @@
-﻿using Solid.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Solid.Core.Entities;
 using Solid.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,37 +18,37 @@ namespace Solid.Data.Repositories
             _context = context;
         }
 
-        public Doctor AddDoctor(Doctor doctor)
+        public async Task<Doctor> AddDoctorAsync(Doctor doctor)
         {
             _context.DoctorList.Add(doctor);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return doctor;
 
         }
 
-        public void DeleteDoctor(int id)
+        public async Task DeleteDoctorAsync(int id)
         {
             _context.DoctorList.Remove(_context.DoctorList.Find(id));
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public Doctor GetById(int id)
+        public async Task<Doctor> GetByIdAsync(int id)
         {
 
             return _context.DoctorList.Find(id);
         }
 
-        public List<Doctor> GetDoctor()
+        public async Task<IEnumerable<Doctor>> GetDoctorAsync()
         {
-            return _context.DoctorList.ToList();
+            return await _context.DoctorList.Include(u=>u.Appointment).ToListAsync();
         }
 
-        public Doctor UpdateDoctor(int id, Doctor doctor)
+        public async Task<Doctor> UpdateDoctorAsync(int id, Doctor doctor)
         {
 
             var updateDoctor = _context.DoctorList.Find(id);
             updateDoctor=doctor;
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return updateDoctor;
         }
    

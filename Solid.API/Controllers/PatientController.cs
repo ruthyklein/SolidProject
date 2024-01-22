@@ -24,45 +24,44 @@ namespace Solid.API.Controllers
 
         // GET: api/<PatientController>
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(_patientService.GetPatient());
+            return Ok(await _patientService.GetPatientAsync());
         }
 
         // GET api/<PatientController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            var pat = _patientService.GetById(id);
+            var pat = _patientService.GetByIdAsync(id);
             if (pat is null)
             {
                 return NotFound();
             }
-            return Ok(pat);
+            return Ok(await pat);
  
         }
 
         // POST api/<PatientController>
         [HttpPost]
-        public ActionResult Post([FromBody] Patient patient)
+        public async Task<ActionResult> Post([FromBody] Patient patient)
         {
-            return Ok(_patientService.AddPatient(patient));
+            return Ok(await _patientService.AddPatientAsync(patient));
         }
 
 
         // PUT api/<PatientController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Patient patient)
+        public async Task<ActionResult> Put(int id, [FromBody] Patient patient)
         {
-            return Ok(_patientService.UpdatePatient(id, patient));
-
+            return Ok(await _patientService.UpdatePatientAsync(id, patient));
         }
 
         // DELETE api/<AppointmentController>/5
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            _patientService.DeletePatient(id);
+            await _patientService.DeletePatientAsync(id);
             return NoContent();
         }
     }

@@ -19,29 +19,29 @@ namespace Solid.Service.Services
               _appointmentRepository = appointmentRepository;
             }
 
-        public Appointment AddAppointment(Appointment appointment)
+        public async Task<Appointment> AddAppointmentAsync(Appointment appointment)
         {
-            return _appointmentRepository.AddAppointment(appointment);
+            return await _appointmentRepository.AddAppointmentAsync(appointment);
         }
 
-        public void DeleteAppointment(int id)
+        public async Task DeleteAppointmentAsync(int id)
         {
-            _appointmentRepository.DeleteAppointment(id);
+             await _appointmentRepository.DeleteAppointmentAsync(id);
         }
 
-        public List<Appointment> GetAppointment()
+        public async Task<List<Appointment>> GetAppointmentAsync()
         {
-            return _appointmentRepository.GetAppointment();
+            return await _appointmentRepository.GetAppointmentAsync();
         }
 
-        public Appointment GetById(int id)
+        public async Task<Appointment> GetByIdAsync(int id)
         {
-            return _appointmentRepository.GetById(id);
+            return await _appointmentRepository.GetByIdAsync(id);
         }
 
-        public Appointment UpdateAppointment(int id, Appointment appointment)
+        public async Task<Appointment> UpdateAppointmentAsync(int id, Appointment appointment)
         {
-            return _appointmentRepository.UpdateAppointment(id, appointment);
+            return await _appointmentRepository.UpdateAppointmentAsync(id, appointment);
         }
 
     }

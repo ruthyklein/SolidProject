@@ -19,44 +19,45 @@ namespace Solid.API.Controllers
 
         // GET: api/<AppointmentController>
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(_appointmentService.GetAppointment());
+            return Ok(await _appointmentService.GetAppointmentAsync());
         }
 
         
         // GET api/<AppointmentController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            var app = _appointmentService.GetById(id);
+            var app = _appointmentService.GetByIdAsync(id);
             if (app is null)
             {
                 return NotFound();
             }
-            return Ok(app);
+            return Ok(await app);
         }
         
          // POST api/<AppointmentController>
         [HttpPost]
-        public ActionResult Post([FromBody] Appointment appointment)
+        public async Task<ActionResult> Post([FromBody] Appointment appointment)
         {
-            return Ok(_appointmentService.AddAppointment(appointment));
+            return Ok(await _appointmentService.AddAppointmentAsync(appointment));
 
             // appointments.Add(new Appointment { Id = appointment.Id, DateTime = appointment.DateTime, Doctor = appointment.Doctor, Patient = appointment.Patient});
 
         }
+
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Appointment app)
+        public async Task<ActionResult> Put(int id, [FromBody] Appointment app)
         {
-            return Ok(_appointmentService.UpdateAppointment(id, app));
+            return Ok(await _appointmentService.UpdateAppointmentAsync(id, app));
         }
 
         // DELETE api/<AppointmentController>/5
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            _appointmentService.DeleteAppointment(id);
+            await _appointmentService.DeleteAppointmentAsync(id);
             return NoContent();
         }
     }

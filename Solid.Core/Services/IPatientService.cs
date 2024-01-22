@@ -4,14 +4,14 @@ namespace Solid.Core.Services
 {
     public interface IPatientService
     {
-        List<Patient> GetPatient();
+        Task<IEnumerable<Patient>> GetPatientAsync();
 
-        Patient GetById(int id);
+        Task<Patient> GetByIdAsync(int id);
 
-        Patient AddPatient(Patient patient);
+        Task<Patient> AddPatientAsync(Patient patient);
 
-        Patient UpdatePatient(int id, Patient patient);
+        Task<Patient> UpdatePatientAsync(int id, Patient patient);
 
-        void DeletePatient(int id);
+        Task DeletePatientAsync(int id);
     }
 }

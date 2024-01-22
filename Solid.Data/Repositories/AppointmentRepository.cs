@@ -1,4 +1,5 @@
-﻿using Solid.Core.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using Solid.Core.Entities;
 using Solid.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -17,38 +18,35 @@ namespace Solid.Data.Repositories
             _context = context;
         }
 
-        public Appointment AddAppointment(Appointment appointment)
+        public async Task<Appointment> AddAppointmentAsync(Appointment appointment)
         {
             _context.AppointmentList.Add(appointment);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return appointment;
         }
 
-        public void DeleteAppointment(int id)
+        public async Task DeleteAppointmentAsync(int id)
         {
             _context.AppointmentList.Remove(_context.AppointmentList.Find(id));
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
 
-        public Appointment GetById(int id)
+        public async Task<Appointment> GetByIdAsync(int id)
         {
             return _context.AppointmentList.Find(id);
         }
 
-        public List<Appointment> GetAppointment()
+        public async Task<List<Appointment>> GetAppointmentAsync()
         {
-            return _context.AppointmentList.ToList();
+            return await _context.AppointmentList.ToListAsync();
         }
 
-        public Appointment UpdateAppointment(int id, Appointment appointment)
+        public async Task<Appointment> UpdateAppointmentAsync(int id, Appointment appointment)
         {
-     
             var updateAppointment = _context.AppointmentList.Find(id);
             updateAppointment = appointment;
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return updateAppointment;
-           
-
         }
     }
     

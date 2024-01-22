@@ -22,45 +22,45 @@ namespace Solid.API.Controllers
         }
         // GET: api/<DoctorController>
         [HttpGet]
-        public IActionResult Get()
+        public async Task<IActionResult> Get()
         {
-            return Ok(_doctorService.GetDoctor());
+            return Ok(await _doctorService.GetDoctorAsync());
         }
 
         // GET api/<DoctorController>/5
         [HttpGet("{id}")]
-        public IActionResult Get(int id)
+        public async Task<IActionResult> Get(int id)
         {
-            var doc = _doctorService.GetById(id);
+            var doc = _doctorService.GetByIdAsync(id);
             if (doc is null)
             {
                 return NotFound();
             }
-            return Ok(doc);
+            return Ok(await doc);
         }
 
         // POST api/<DoctorController>
         [HttpPost]
-        public ActionResult Post([FromBody] Doctor doctor)
+        public async Task<ActionResult> Post([FromBody] Doctor doctor)
         {
-           return Ok( _doctorService.AddDoctor(doctor));
+           return Ok(await _doctorService.AddDoctorAsync(doctor));
         }
 
 
         // PUT api/<DoctorController>/5
         [HttpPut("{id}")]
-        public ActionResult Put(int id, [FromBody] Doctor doctor)
+        public async Task<ActionResult> Put(int id, [FromBody] Doctor doctor)
         {
-           return Ok(_doctorService.UpdateDoctor(id, doctor));
+           return Ok(await _doctorService.UpdateDoctorAsync(id, doctor));
             
         }
 
 
         //// DELETE api/<DoctorController>/5
         [HttpDelete("{id}")]
-        public ActionResult Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
-            _doctorService.DeleteDoctor(id);
+            await _doctorService.DeleteDoctorAsync(id);
             return NoContent();
         }
     }

@@ -5,14 +5,14 @@ namespace Solid.Core.Services
 {
     public interface IAppointmentService
     {
-        List<Appointment> GetAppointment();
+        Task<List<Appointment>> GetAppointmentAsync();
 
-        Appointment GetById(int id);
+        Task<Appointment> GetByIdAsync(int id);
 
-        Appointment AddAppointment(Appointment appointment);
+        Task<Appointment> AddAppointmentAsync(Appointment appointment);
 
-        Appointment UpdateAppointment(int id, Appointment appointment);
+        Task<Appointment> UpdateAppointmentAsync(int id, Appointment appointment);
 
-        void DeleteAppointment(int id);
+        Task DeleteAppointmentAsync(int id);
     }
 }

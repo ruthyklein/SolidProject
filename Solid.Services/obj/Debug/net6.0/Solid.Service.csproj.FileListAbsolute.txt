@@ -1,0 +1,46 @@
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.deps.json
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.dll
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.pdb
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.dll
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.pdb
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.AssemblyReference.cache
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfoInputs.cache
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfo.cs
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CoreCompileInputs.cache
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CopyComplete
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.dll
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\refint\Solid.Service.dll
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.pdb
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\ref\Solid.Service.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.deps.json
+D:\מקצועות 2024\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.AssemblyReference.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfoInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfo.cs
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CoreCompileInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CopyComplete
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\refint\Solid.Service.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Services\obj\Debug\net6.0\ref\Solid.Service.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.deps.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\bin\Debug\net6.0\Solid.Service.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfo.cs
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.sourcelink.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CopyComplete
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\refint\Solid.Service.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\ref\Solid.Service.dll

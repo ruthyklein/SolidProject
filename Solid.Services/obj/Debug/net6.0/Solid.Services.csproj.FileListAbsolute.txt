@@ -1,0 +1,15 @@
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Services.deps.json
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Services.dll
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Services.pdb
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.dll
+D:\.net core\Solid\Solid.Services\bin\Debug\net6.0\Solid.Core.pdb
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.csproj.AssemblyReference.cache
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.AssemblyInfoInputs.cache
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.AssemblyInfo.cs
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.csproj.CoreCompileInputs.cache
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.csproj.CopyComplete
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.dll
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\refint\Solid.Services.dll
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\Solid.Services.pdb
+D:\.net core\Solid\Solid.Services\obj\Debug\net6.0\ref\Solid.Services.dll

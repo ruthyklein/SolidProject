@@ -1,0 +1,34 @@
+D:\.net core\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.deps.json
+D:\.net core\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.dll
+D:\.net core\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.pdb
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfoInputs.cache
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfo.cs
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.csproj.CoreCompileInputs.cache
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.dll
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\refint\Solid.Core.dll
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.pdb
+D:\.net core\Solid\Solid.Core\obj\Debug\net6.0\ref\Solid.Core.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.deps.json
+D:\מקצועות 2024\.net core\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfoInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfo.cs
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.csproj.CoreCompileInputs.cache
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\refint\Solid.Core.dll
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.pdb
+D:\מקצועות 2024\.net core\Solid\Solid.Core\obj\Debug\net6.0\ref\Solid.Core.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.deps.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.AssemblyInfo.cs
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.sourcelink.json
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\refint\Solid.Core.dll
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\Solid.Core.pdb
+C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Core\obj\Debug\net6.0\ref\Solid.Core.dll
