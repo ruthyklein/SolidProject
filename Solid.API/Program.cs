@@ -1,3 +1,4 @@
+using Solid.Core;
 using Solid.Core.Repositories;
 using Solid.Core.Services;
 using Solid.Data;
@@ -30,6 +31,7 @@ builder.Services.AddScoped<IDoctorService, DoctorService>();
 builder.Services.AddScoped<IPatientService, PatientService>();
 //builder.Services.AddControllers().AddControllersAsServices();
 builder.Services.AddSingleton<DataContext>();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 builder.Services.AddDbContext<DataContext>();
 var app = builder.Build();
 

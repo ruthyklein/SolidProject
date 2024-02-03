@@ -40,7 +40,7 @@ namespace Solid.Data.Repositories
 
         public async Task<IEnumerable<Doctor>> GetDoctorAsync()
         {
-            return await _context.DoctorList.Include(u=>u.Appointment).ToListAsync();
+            return await _context.DoctorList.ToListAsync();
         }
 
         public async Task<Doctor> UpdateDoctorAsync(int id, Doctor doctor)

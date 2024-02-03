@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Solid.Core.Entities;
 using Solid.Core.Services;
 using Solid.Data;
@@ -15,10 +16,11 @@ namespace Solid.API.Controllers
     public class DoctorController : ControllerBase
     {
         private readonly IDoctorService _doctorService;
-
-        public DoctorController(IDoctorService doctorService)
+        private readonly IMapper _mapper;
+        public DoctorController(IDoctorService doctorService, IMapper mapper)
         {
             _doctorService = doctorService;
+            _mapper = mapper;
         }
         // GET: api/<DoctorController>
         [HttpGet]

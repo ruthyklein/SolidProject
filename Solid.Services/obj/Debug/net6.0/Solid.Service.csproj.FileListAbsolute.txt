@@ -44,3 +44,18 @@ C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\
 C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\refint\Solid.Service.dll
 C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\Solid.Service.pdb
 C:\Users\User\Desktop\רותי\שנה ב'\Solid\Solid.Services\obj\Debug\net6.0\ref\Solid.Service.dll
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\bin\Debug\net6.0\Solid.Service.deps.json
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\bin\Debug\net6.0\Solid.Service.dll
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\bin\Debug\net6.0\Solid.Service.pdb
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\bin\Debug\net6.0\Solid.Core.dll
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\bin\Debug\net6.0\Solid.Core.pdb
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.AssemblyReference.cache
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.GeneratedMSBuildEditorConfig.editorconfig
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfoInputs.cache
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.AssemblyInfo.cs
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CoreCompileInputs.cache
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.csproj.CopyComplete
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.dll
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\refint\Solid.Service.dll
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\Solid.Service.pdb
+Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Services\obj\Debug\net6.0\ref\Solid.Service.dll

@@ -1,4 +1,5 @@
 ﻿
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Solid.Core.Entities;
 using Solid.Core.Services;
@@ -11,10 +12,11 @@ namespace Solid.API.Controllers
     public class AppointmentController : ControllerBase
     {
         private readonly IAppointmentService _appointmentService;
-
-        public AppointmentController(IAppointmentService appointmentService)
+        private readonly IMapper _mapper;
+        public AppointmentController(IAppointmentService appointmentService,IMapper mapper)
         {
             _appointmentService = appointmentService;
+            _mapper = mapper;
         }
 
         // GET: api/<AppointmentController>

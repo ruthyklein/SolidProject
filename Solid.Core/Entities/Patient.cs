@@ -10,8 +10,7 @@ namespace Solid.Core.Entities
         public string Address { get; set; }
         public string PhoneNumber { get; set; }
         public bool Status { get; set; }
-        public int AppointmentId { get; set; }
-        public Appointment Appointment { get; set; }
+        public List<Appointment> Appointments { get; set; }
 
         //public Patient(int id, string name, DateTime dateBorn, string address, string phoneNumber, bool status)
         //{

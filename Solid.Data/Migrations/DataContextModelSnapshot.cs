@@ -33,7 +33,17 @@ namespace Solid.Data.Migrations
                     b.Property<DateTime>("DateTime")
                         .HasColumnType("datetime2");
 
+                    b.Property<int>("DoctorId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PatientId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("DoctorId");
+
+                    b.HasIndex("PatientId");
 
                     b.ToTable("AppointmentList");
                 });
@@ -50,9 +60,6 @@ namespace Solid.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("AppointmentId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DateBorn")
                         .HasColumnType("datetime2");
 
@@ -68,8 +75,6 @@ namespace Solid.Data.Migrations
                         .HasColumnType("bit");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("AppointmentId");
 
                     b.ToTable("DoctorList");
                 });
@@ -86,9 +91,6 @@ namespace Solid.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("AppointmentId")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("DateBorn")
                         .HasColumnType("datetime2");
 
@@ -105,38 +107,36 @@ namespace Solid.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("AppointmentId");
-
                     b.ToTable("PatientList");
-                });
-
-            modelBuilder.Entity("Solid.Core.Entities.Doctor", b =>
-                {
-                    b.HasOne("Solid.Core.Entities.Appointment", "Appointment")
-                        .WithMany("Doctor")
-                        .HasForeignKey("AppointmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Appointment");
-                });
-
-            modelBuilder.Entity("Solid.Core.Entities.Patient", b =>
-                {
-                    b.HasOne("Solid.Core.Entities.Appointment", "Appointment")
-                        .WithMany("Patient")
-                        .HasForeignKey("AppointmentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Appointment");
                 });
 
             modelBuilder.Entity("Solid.Core.Entities.Appointment", b =>
                 {
+                    b.HasOne("Solid.Core.Entities.Doctor", "Doctor")
+                        .WithMany("Appointments")
+                        .HasForeignKey("DoctorId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Solid.Core.Entities.Patient", "Patient")
+                        .WithMany("Appointments")
+                        .HasForeignKey("PatientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Doctor");
 
                     b.Navigation("Patient");
+                });
+
+            modelBuilder.Entity("Solid.Core.Entities.Doctor", b =>
+                {
+                    b.Navigation("Appointments");
+                });
+
+            modelBuilder.Entity("Solid.Core.Entities.Patient", b =>
+                {
+                    b.Navigation("Appointments");
                 });
 #pragma warning restore 612, 618
         }

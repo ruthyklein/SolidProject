@@ -24,6 +24,7 @@ namespace Solid.Data.Repositories
             await _context.SaveChangesAsync();
             return appointment;
         }
+   
 
         public async Task DeleteAppointmentAsync(int id)
         {
@@ -38,7 +39,7 @@ namespace Solid.Data.Repositories
 
         public async Task<List<Appointment>> GetAppointmentAsync()
         {
-            return await _context.AppointmentList.ToListAsync();
+            return await _context.AppointmentList.Include(u=>u.Doctor).Include(p=>p.Patient).ToListAsync();
         }
 
         public async Task<Appointment> UpdateAppointmentAsync(int id, Appointment appointment)
