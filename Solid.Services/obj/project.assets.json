@@ -331,23 +331,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\hitmachut\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "Y:\\Groups\\Group_3\\קליין רות\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj",
+      "projectUniqueName": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj",
       "projectName": "Solid.Service",
-      "projectPath": "Y:\\Groups\\Group_3\\קליין רות\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj",
-      "packagesPath": "C:\\Users\\hitmachut\\.nuget\\packages\\",
-      "outputPath": "Y:\\Groups\\Group_3\\קליין רות\\.net core\\SolidProject\\Solid.Services\\obj\\",
+      "projectPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\hitmachut\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -363,8 +363,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "Y:\\Groups\\Group_3\\קליין רות\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj": {
-              "projectPath": "Y:\\Groups\\Group_3\\קליין רות\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj"
+            "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj": {
+              "projectPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj"
             }
           }
         }
@@ -394,7 +394,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
