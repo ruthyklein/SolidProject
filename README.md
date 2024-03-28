@@ -8,7 +8,7 @@ The HMO Appointment Management System allows users to schedule appointments with
 
 - **Patient**: Individuals receiving medical care.
 - **Doctor**: Healthcare professionals providing medical services.
-- **Turn**: Scheduled appointments or queue positions for patients.
+- **Queues**: Scheduled appointments or queue positions for patients.
 
 ## Routes Mapping for Patients
 
