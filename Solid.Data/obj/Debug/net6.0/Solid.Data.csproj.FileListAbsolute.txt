@@ -67,3 +67,20 @@ Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Data\obj\Debug\
 Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
 Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
 Y:\Groups\Group_3\קליין רות\.net core\SolidProject\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\bin\Debug\net6.0\Solid.Data.deps.json
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\bin\Debug\net6.0\Solid.Data.runtimeconfig.json
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\bin\Debug\net6.0\Solid.Data.dll
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\bin\Debug\net6.0\Solid.Data.pdb
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\bin\Debug\net6.0\Solid.Core.dll
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\bin\Debug\net6.0\Solid.Core.pdb
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.AssemblyInfo.cs
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.csproj.Up2Date
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.dll
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\refint\Solid.Data.dll
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.pdb
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\Solid.Data.genruntimeconfig.cache
+C:\Users\User\Downloads\SolidProject-master\Solid.Data\obj\Debug\net6.0\ref\Solid.Data.dll

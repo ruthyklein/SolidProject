@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj": {}
+    "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Services\\Solid.Service.csproj": {}
   },
   "projects": {
-    "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj": {
+    "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Solid.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Solid.Core.csproj",
         "projectName": "Solid.Core",
-        "projectPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj",
+        "projectPath": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Solid.Core.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\obj\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -65,23 +70,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj": {
+    "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Services\\Solid.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Services\\Solid.Service.csproj",
         "projectName": "Solid.Service",
-        "projectPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\Solid.Service.csproj",
+        "projectPath": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Services\\Solid.Service.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Services\\obj\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -103,8 +122,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj": {
-                "projectPath": "D:\\מקצועות 2024\\.net core\\SolidProject\\Solid.Core\\Solid.Core.csproj"
+              "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Solid.Core.csproj": {
+                "projectPath": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Solid.Core.csproj"
               }
             }
           }
@@ -113,6 +132,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -129,12 +153,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.31, 6.0.31]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,13 +1,10 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
+using AutoMapper;
 using Solid.Core.Entities;
+using Solid.Core.DTOs;
 using Solid.Core.Services;
-using Solid.Data;
-using Solid.Service.Services;
-using System.Net;
-using System.Xml.Linq;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace Solid.API.Controllers
 {
@@ -17,48 +14,49 @@ namespace Solid.API.Controllers
     {
         private readonly IDoctorService _doctorService;
         private readonly IMapper _mapper;
+
         public DoctorController(IDoctorService doctorService, IMapper mapper)
         {
             _doctorService = doctorService;
             _mapper = mapper;
         }
-        // GET: api/<DoctorController>
+
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(await _doctorService.GetDoctorAsync());
+            var doctors = await _doctorService.GetDoctorAsync();
+            var doctorDtos = _mapper.Map<IEnumerable<DoctorDto>>(doctors);
+            return Ok(doctorDtos);
         }
 
-        // GET api/<DoctorController>/5
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            var doc = _doctorService.GetByIdAsync(id);
-            if (doc is null)
+            var doctor = await _doctorService.GetByIdAsync(id);
+            if (doctor == null)
             {
                 return NotFound();
             }
-            return Ok(await doc);
+            var doctorDto = _mapper.Map<DoctorDto>(doctor);
+            return Ok(doctorDto);
         }
 
-        // POST api/<DoctorController>
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Doctor doctor)
         {
-           return Ok(await _doctorService.AddDoctorAsync(doctor));
+            var addedDoctor = await _doctorService.AddDoctorAsync(doctor);
+            var doctorDto = _mapper.Map<DoctorDto>(addedDoctor);
+            return Ok(doctorDto);
         }
 
-
-        // PUT api/<DoctorController>/5
         [HttpPut("{id}")]
         public async Task<ActionResult> Put(int id, [FromBody] Doctor doctor)
         {
-           return Ok(await _doctorService.UpdateDoctorAsync(id, doctor));
-            
+            var updatedDoctor = await _doctorService.UpdateDoctorAsync(id, doctor);
+            var doctorDto = _mapper.Map<DoctorDto>(updatedDoctor);
+            return Ok(doctorDto);
         }
 
-
-        //// DELETE api/<DoctorController>/5
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {

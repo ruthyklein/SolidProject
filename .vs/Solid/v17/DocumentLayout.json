@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Downloads\\SolidProject-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\controllers\\doctorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\controllers\\appointmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.core\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|solutionrelative:solid.core\\dtos\\patientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.core\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|solutionrelative:solid.core\\dtos\\doctordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.core\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|solutionrelative:solid.core\\dtos\\appointmentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\AppData\\Roaming\\Microsoft\\UserSecrets\\f6fa5f50-e590-4a47-ae50-a77d5adb6f4f\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\solid.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\solid.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.core\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|solutionrelative:solid.core\\entities\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0184AB13-FCE6-41CC-ABE3-BD39DDB6F441}|Solid.Data\\Solid.Data.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.data\\solid.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0184AB13-FCE6-41CC-ABE3-BD39DDB6F441}|Solid.Data\\Solid.Data.csproj|solutionrelative:solid.data\\solid.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.core\\solid.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{96BD4B96-0ADF-4B77-894C-C5107713CCCD}|Solid.Core\\Solid.Core.csproj|solutionrelative:solid.core\\solid.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0184AB13-FCE6-41CC-ABE3-BD39DDB6F441}|Solid.Data\\Solid.Data.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0184AB13-FCE6-41CC-ABE3-BD39DDB6F441}|Solid.Data\\Solid.Data.csproj|solutionrelative:solid.data\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|c:\\users\\user\\downloads\\solidproject-master\\solid.api\\models\\apointmentpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{56031559-2A91-443E-8EFE-40F80DE0F9B3}|Solid.API\\Solid.API.csproj|solutionrelative:solid.api\\models\\apointmentpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DoctorDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\DTOs\\DoctorDto.cs",
+              "RelativeDocumentMoniker": "Solid.Core\\DTOs\\DoctorDto.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\DTOs\\DoctorDto.cs",
+              "RelativeToolTip": "Solid.Core\\DTOs\\DoctorDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:00:00.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\DTOs\\PatientDto.cs",
+              "RelativeDocumentMoniker": "Solid.Core\\DTOs\\PatientDto.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\DTOs\\PatientDto.cs",
+              "RelativeToolTip": "Solid.Core\\DTOs\\PatientDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:01:46.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Controllers\\AppointmentController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Solid.API\\Controllers\\AppointmentController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:46:44.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Solid.API\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:19:40.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DoctorController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\DoctorController.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Controllers\\DoctorController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\DoctorController.cs",
+              "RelativeToolTip": "Solid.API\\Controllers\\DoctorController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:21:01.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Controllers\\PatientController.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Solid.API\\Controllers\\PatientController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:21:12.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppointmentDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\DTOs\\AppointmentDto.cs",
+              "RelativeDocumentMoniker": "Solid.Core\\DTOs\\AppointmentDto.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\DTOs\\AppointmentDto.cs",
+              "RelativeToolTip": "Solid.Core\\DTOs\\AppointmentDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:52:46.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\User\\AppData\\Roaming\\Microsoft\\UserSecrets\\f6fa5f50-e590-4a47-ae50-a77d5adb6f4f\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\f6fa5f50-e590-4a47-ae50-a77d5adb6f4f\\secrets.json",
+              "ToolTip": "C:\\Users\\User\\AppData\\Roaming\\Microsoft\\UserSecrets\\f6fa5f50-e590-4a47-ae50-a77d5adb6f4f\\secrets.json",
+              "RelativeToolTip": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\f6fa5f50-e590-4a47-ae50-a77d5adb6f4f\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T15:21:46.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Solid.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\appsettings.json",
+              "RelativeToolTip": "Solid.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-04T14:43:44.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Program.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Program.cs",
+              "RelativeToolTip": "Solid.API\\Program.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAqwD4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:21:34.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Entities\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Solid.Core\\Entities\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Entities\\LoginModel.cs",
+              "RelativeToolTip": "Solid.Core\\Entities\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:07:30.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Solid.API.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Solid.API.csproj",
+              "RelativeDocumentMoniker": "Solid.API\\Solid.API.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Solid.API.csproj",
+              "RelativeToolTip": "Solid.API\\Solid.API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T14:45:20.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Solid.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Data\\Solid.Data.csproj",
+              "RelativeDocumentMoniker": "Solid.Data\\Solid.Data.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Data\\Solid.Data.csproj",
+              "RelativeToolTip": "Solid.Data\\Solid.Data.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T14:45:49.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Solid.Core.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Solid.Core.csproj",
+              "RelativeDocumentMoniker": "Solid.Core\\Solid.Core.csproj",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Core\\Solid.Core.csproj",
+              "RelativeToolTip": "Solid.Core\\Solid.Core.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-04T14:45:42.268Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DataContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Data\\DataContext.cs",
+              "RelativeDocumentMoniker": "Solid.Data\\DataContext.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.Data\\DataContext.cs",
+              "RelativeToolTip": "Solid.Data\\DataContext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:41:15.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApointmentPostModel.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Models\\ApointmentPostModel.cs",
+              "RelativeDocumentMoniker": "Solid.API\\Models\\ApointmentPostModel.cs",
+              "ToolTip": "C:\\Users\\User\\Downloads\\SolidProject-master\\Solid.API\\Models\\ApointmentPostModel.cs",
+              "RelativeToolTip": "Solid.API\\Models\\ApointmentPostModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T14:14:57.655Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

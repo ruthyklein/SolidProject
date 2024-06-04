@@ -1,9 +1,8 @@
-﻿
+﻿using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
 using Solid.Core.Entities;
+using Solid.Core.DTOs;
 using Solid.Core.Services;
-using Solid.Service.Services;
 
 namespace Solid.API.Controllers
 {
@@ -13,49 +12,49 @@ namespace Solid.API.Controllers
     {
         private readonly IAppointmentService _appointmentService;
         private readonly IMapper _mapper;
-        public AppointmentController(IAppointmentService appointmentService,IMapper mapper)
+
+        public AppointmentController(IAppointmentService appointmentService, IMapper mapper)
         {
             _appointmentService = appointmentService;
             _mapper = mapper;
         }
 
-        // GET: api/<AppointmentController>
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            return Ok(await _appointmentService.GetAppointmentAsync());
+            var appointments = await _appointmentService.GetAppointmentAsync();
+            var appointmentDtos = _mapper.Map<IEnumerable<AppointmentDto>>(appointments);
+            return Ok(appointmentDtos);
         }
 
-        
-        // GET api/<AppointmentController>/5
         [HttpGet("{id}")]
         public async Task<IActionResult> Get(int id)
         {
-            var app = _appointmentService.GetByIdAsync(id);
-            if (app is null)
+            var appointment = await _appointmentService.GetByIdAsync(id);
+            if (appointment == null)
             {
                 return NotFound();
             }
-            return Ok(await app);
+            var appointmentDto = _mapper.Map<AppointmentDto>(appointment);
+            return Ok(appointmentDto);
         }
-        
-         // POST api/<AppointmentController>
+
         [HttpPost]
         public async Task<ActionResult> Post([FromBody] Appointment appointment)
         {
-            return Ok(await _appointmentService.AddAppointmentAsync(appointment));
-
-            // appointments.Add(new Appointment { Id = appointment.Id, DateTime = appointment.DateTime, Doctor = appointment.Doctor, Patient = appointment.Patient});
-
+            var addedAppointment = await _appointmentService.AddAppointmentAsync(appointment);
+            var appointmentDto = _mapper.Map<AppointmentDto>(addedAppointment);
+            return Ok(appointmentDto);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] Appointment app)
+        public async Task<ActionResult> Put(int id, [FromBody] Appointment appointment)
         {
-            return Ok(await _appointmentService.UpdateAppointmentAsync(id, app));
+            var updatedAppointment = await _appointmentService.UpdateAppointmentAsync(id, appointment);
+            var appointmentDto = _mapper.Map<AppointmentDto>(updatedAppointment);
+            return Ok(appointmentDto);
         }
 
-        // DELETE api/<AppointmentController>/5
         [HttpDelete("{id}")]
         public async Task<ActionResult> Delete(int id)
         {
